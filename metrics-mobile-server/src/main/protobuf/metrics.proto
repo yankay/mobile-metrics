@@ -1,0 +1,29 @@
+message Metric {
+	required int64 timestamp   = 1;
+	
+	message MetricName {
+    	required string group = 1;
+    	required string type  = 2;
+    	required string name  = 3;
+	    optional string scope = 4;
+    }
+	
+	required MetricName name   = 2;
+	required string valueName  = 3;
+
+	enum ValueType {
+		INT    = 0;
+		FLOAT  = 1;
+		STRING = 2;
+	}
+	
+	required ValueType valueType = 4;
+	optional int64 intValue      = 5;
+	optional double floatValue   = 6;
+	optional string StringValue  = 7;
+
+}
+
+message MetricList {
+	repeated Metric metric = 1;
+}

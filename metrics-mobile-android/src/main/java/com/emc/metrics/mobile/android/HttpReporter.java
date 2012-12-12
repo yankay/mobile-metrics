@@ -2,7 +2,7 @@ package com.emc.metrics.mobile.android;
 
 import java.io.IOException;
 import java.io.PrintStream;
-import java.net.URL;
+import java.net.URI;
 import java.util.Locale;
 import java.util.Map.Entry;
 import java.util.SortedMap;
@@ -42,7 +42,7 @@ public class HttpReporter extends AbstractPollingReporter implements
 	 * @param unit
 	 *            the time unit of {@code period}
 	 */
-	public static void enable(long period, TimeUnit unit, URL uri) {
+	public static void enable(long period, TimeUnit unit, URI uri) {
 		enable(Metrics.defaultRegistry(), period, unit, new DefaultHttpSender(
 				uri));
 	}
@@ -134,7 +134,7 @@ public class HttpReporter extends AbstractPollingReporter implements
 						try {
 							metric.processWith(this, subEntry.getKey(), epoch);
 						} catch (Exception ignored) {
-							System.err.println("ignored metric processWith");
+						ignored.printStackTrace();
 						}
 					}
 				}
