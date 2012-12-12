@@ -1,4 +1,4 @@
-metric-mobile
+metrics-mobile
 =============
 Metrics Mobile is library which gives you unparalleled insight into what your code does in mobile.
 
