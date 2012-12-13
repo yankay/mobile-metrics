@@ -17,7 +17,7 @@
  *  under the License.
  *
  */
-package com.emc.metrics.mobile.server;
+package com.github.metrics.mobile.server;
 
 import java.io.IOException;
 
