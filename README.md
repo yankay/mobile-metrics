@@ -5,4 +5,9 @@ Metrics Mobile is library which gives you unparalleled insight into what your co
 And support lots of backend like **Ganglia** , **Graphite**. Even it's a great tunnel for Data Analysis.
 
 It can be port to [Metrics](https://github.com/codahale/metrics) and  [Spring Integration](http://www.springsource.org/).
+
+
+![metrics-mobile proposoal](https://raw.github.com/yankay/metrics-mobile/master/doc/proposoal)
+
+
 So it can be integrate into your current production  system easily. 
