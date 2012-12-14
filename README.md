@@ -7,7 +7,7 @@ And support lots of backend like **Ganglia** , **Graphite**. Even it's a great t
 It can be port to [Metrics](https://github.com/codahale/metrics) and  [Spring Integration](http://www.springsource.org/).
 
 
-![metrics-mobile proposoal](https://raw.github.com/yankay/metrics-mobile/master/doc/proposoal.png)
+![metrics-mobile proposoal](https://raw.github.com/yankay/metrics-mobile/master/doc/proposoal)
 
 
 So it can be integrate into your current production  system easily. 
