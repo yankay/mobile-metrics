@@ -1,13 +1,28 @@
 mobile-metrics
 =============
-Mobile Metrics  is library which gives you unparalleled insight into what your code does in mobile.
-
-And support lots of backend like **Ganglia** , **Graphite**. Even it's a great tunnel for Data Analysis.
-
-It can be port to [Metrics](https://github.com/codahale/metrics) and  [Spring Integration](http://www.springsource.org/).
+Mobile Metrics  is library which gives you unparalleled insight into what happens in mobile. 
 
 
+How to use Mobile Metrics
+-------------
 ![mobile-metrics proposoal](https://raw.github.com/yankay/mobile-metrics/master/doc/proposoal.png)
 
+Features
+-------------
+mobile-metrics can create the data tunnel between mobile and your current data system. 
 
-So it can be integrate into your current production  system easily. 
+It support tunnel data from mobile:
+* User/Session info
+* Screen/Device info
+* **Your Customized info**
+
+It support tunnel data to:
+* Cloud Anlysis Service such as Google Analysis
+* Montior tool such as **Ganglia** , **Graphite**
+* Database, Data warehouse such as MySQL, Greenplum
+* Pain File, and send to FTP
+* **Your current system**
+
+It support to deploy on
+* PaaS such as CloudFoundry, Google App Engine, Heroku and SAE
+* **IaaS and your own machine**
