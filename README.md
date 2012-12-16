@@ -21,6 +21,7 @@ It support tunnel data to:
 * Montior tool such as **Ganglia** , **Graphite**
 * Database, Data warehouse such as MySQL, Greenplum
 * Pain File, and send to FTP
+* fluentd https://github.com/fluent/fluentd
 * **Your current system**
 
 It support to deploy on
